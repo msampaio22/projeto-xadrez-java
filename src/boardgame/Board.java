@@ -28,7 +28,7 @@ public class Board {
 	}
 	
 	public Piece piece(Position position) {
-		return piece[position.getRow()][position.getColumn];
+		return pieces[position.getRow()][position.getColumn()];
 	}
 	
 }
